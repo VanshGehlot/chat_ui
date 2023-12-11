@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrainCo Chat Interface</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<div class="navbar">
+<div class="navbar-left">
+<h1>🧠 BrainCo. </h1>
+</div>
+<div class="navbar-right">
+<button class="icon-button">🔔</button>
+<button class="icon-button">👤</button>
+<button class="icon-button">☰</button>
+<button class="icon-button logout-button">LogOut</button>
+</div>
+</div>
+<div class="container">
+<div class="sidebar">
+<button class="new-chat-button"><span class="button-icon">💬</span> New Chat</button>
+<h2>Recent</h2>
+<button class="user-button">🚀 Vansh</button>
+<button class="user-button">👋🏼 Martin</button>
+<div class="settings-button-container">
+<button class="settings-button">⚙️ Settings</button>
+</div>
+</div>
+<div class="main-content">
+<div class="chat-window" id="chatWindow">
+<div class="chat-message user-message">Steve: Hey Elon, how's the Mars project going?</div>
+<div class="chat-message assistant-message">Elon: It's challenging but exciting! We're making progress.</div>
+<!-- More chat messages here -->
+</div>
+<div class="message-input">
+<input type="text" id="messageInput" placeholder="Type a message...">
+<button class="send-button">Send</button>
+<button class="voice-button">🎤</button>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>© 2023 BrainCo. All rights reserved.</p>
+</div>
+</body>
+</html>
